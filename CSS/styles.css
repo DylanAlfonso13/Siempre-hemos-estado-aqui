@@ -185,6 +185,11 @@
     padding: 0 50px;
 }
 
+.main__content{
+    grid-column: 1/4;
+    text-align: center;
+}
+
 .main__content h1 {
     font-size: 4rem;
     background-color: #C8102E;
@@ -195,17 +200,6 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
-
-/* .main__content h2 {
-    font-size: 4rem;
-    background-color: #C8102E;
-    background-image: linear-gradient(to top, #C8102E 50%, #fff 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-} */
 
 .main__content p{
     margin-top:1rem;
@@ -327,7 +321,6 @@
     padding: 50px;
     text-align: center;
     background-color: #fff;
-
 }
 
 .who{

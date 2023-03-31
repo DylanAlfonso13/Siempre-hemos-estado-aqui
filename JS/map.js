@@ -7,6 +7,7 @@ googleStreets = L.tileLayer('http://{s}.google.com/vt?lyrs=m&x={x}&y={y}&z={z}',
 });
 googleStreets.addTo(map);
 
+
 //Icons
 var firstMarker = L.marker([38.6270, -90.1994]).addTo(map);
 var popup = firstMarker.bindPopup('This is STL!').openPopUp();
