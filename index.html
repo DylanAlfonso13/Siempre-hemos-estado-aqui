@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- NAVBAR SECTION -->
@@ -25,15 +26,15 @@
             <!-- NAVBAR MENU -->
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="index.html" class="navbar__links"> Home </a>
+                    <a href="#home" class="navbar__links"> Home </a>
                 </li>
 
                 <li class="navbar__item">
-                    <a href="map.html" class="navbar__links"> Map </a>
+                    <a href="#who" class="navbar__links"> Who are we? </a>
                 </li>
 
                 <li class="navbar__item">
-                    <a href="who.html" class="navbar__links"> Who are we? </a>
+                    <a href="#map" class="navbar__links"> Map </a>
                 </li>
                 
             </ul>
@@ -41,65 +42,78 @@
         </div>
     </nav>
     <!-- Hero Section -->
-    <div class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h1>MEXICAN HISTORY IN ST. LOUIS</h1>
-                <p>Siempre Hemos Estado Aquí (We Have Always Been Here) is a grassroots project that engages with collective memory in St. Louis. 
-                    In a city with a prominent Mexican-American community, we invite the public to explore this rich history that dates back to the early 1800s. 
-                    Through an interactive map, we strive to recognize the deep-rooted Mexican presence in St. Louis and acknowledge the city’s role in a larger 
-                    historical narrative of mexicanos in the United States. 
-                </p>
-                <button class="main__btn"><a href="map.html">Go To Map</a></button>
-            </div>
-            <!-- <div class="main__img--container">  
-                <img src="images/people1.svg" alt="picture" id="main__img" />
-            </div> -->
-        </div>
-    </div>
-
-    <!-- Footer Section -->
-
-    <!-- <div class="footer__container">
-        <div class="footer__links">
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>About Us</h2>
-                    <a href="/">How it Works</a>
-                    <a href="/">ex1</a>
-                    <a href="/">ex2</a>
-                    <a href="/">ex3</a>
-                    <a href="/">ex4</a>
-                </div>
-                <div class="footer__link--items">
-                    <h2>About Us</h2>
-                    <a href="/">How it Works</a>
-                    <a href="/">ex1</a>
-                    <a href="/">ex2</a>
-                    <a href="/">ex3</a>
-                    <a href="/">ex4</a>
-                </div>
-            </div>
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>About Us</h2>
-                    <a href="/">How it Works</a>
-                    <a href="/">ex1</a>
-                    <a href="/">ex2</a>
-                    <a href="/">ex3</a>
-                    <a href="/">ex4</a>
-                </div>
-                <div class="footer__link--items">
-                    <h2>About Us</h2>
-                    <a href="/">How it Works</a>
-                    <a href="/">ex1</a>
-                    <a href="/">ex2</a>
-                    <a href="/">ex3</a>
-                    <a href="/">ex4</a>
+    <section id = "home">
+        <div class="main">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1>MEXICAN HISTORY IN ST. LOUIS</h1>
+                    <p>Siempre Hemos Estado Aquí (We Have Always Been Here) is a grassroots project that engages with collective memory in St. Louis. 
+                        In a city with a prominent Mexican-American community, we invite the public to explore this rich history that dates back to the early 1800s. 
+                        Through an interactive map, we strive to recognize the deep-rooted Mexican presence in St. Louis and acknowledge the city’s role in a larger 
+                        historical narrative of mexicanos in the United States. 
+                    </p>
+                    <button class="main__btn"><a href="#map">Go To Map</a></button>
                 </div>
             </div>
         </div>
-    </div> -->
+    </section>
+
+    <section id = "who">
+        <div class="who__title">
+            <h1>Who are we?</h1>
+            <p> Meet the team and learn a bit more about the project.</p>
+        </div>
+          <div class="main">
+            <div class="profile-card">
+              <div class="img">
+                  <img src="">
+              </div>
+              <div class="caption">
+                  <h3>Jade Pita</h3>
+                  <p>Founder</p>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="/images/Professional Picture4.jpg">
+                </div>
+                <div class="caption">
+                    <h3>Dylan Alfonso</h3>
+                    <p>Head Developer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="profile-card">
+                <div class="img">
+                    <img src="">
+                </div>
+                <div class="caption">
+                    <h3>Other Guy</h3>
+                    <p>Full Stact Developer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "map">
+        <iframe width = "100%" height = "1000px" src = "https://storymaps.arcgis.com/stories/05acb66411224a4d87b8fc1efd584868"></iframe>
+    </section>
+    
     <script src="JS/app.js"></script>
 </body>
 </html>
