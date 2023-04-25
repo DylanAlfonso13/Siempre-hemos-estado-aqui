@@ -4,6 +4,10 @@
     padding: 0;
     font-family: 'Manrope';
 }
+section{
+    padding-top: 80px;
+    margin-top: -80px;
+}
 
 html{
     scroll-behavior: smooth;
@@ -208,7 +212,7 @@ html{
 .main__content p{
     margin-top:1rem;
     font-size: 2rem;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .main__btn{
@@ -272,6 +276,7 @@ html{
         width: 100%;
         margin: 0 auto;
         height: 90vh;
+        padding: 0 0px;
     }
 
     .main__content{
@@ -281,15 +286,11 @@ html{
     }
 
     .main__content h1{
-        /* font-size: 2.5rem;
-        margin-top: 2rem; */
-        /* font-size: 2.5rem; */
         margin-top: 2rem;
     }
 
     .main__content p{
         margin-top: 1rem;
-        /* font-size: 1.5rem; */
         font-size: 1.2rem;
 
     }
@@ -302,7 +303,7 @@ html{
 
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 490px){
     .main__content h1{
         font-size: 1.5rem;
         margin-top: 3rem;
@@ -318,4 +319,9 @@ html{
         margin-top: 2rem;
         font-size: 1rem;
     }
+}
+
+.language_link{
+    /* margin: 50px; */
+    font-size: 1.25;
 }
