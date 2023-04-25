@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siempre Hemos Estado Aquí</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&amp;display=swap"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="spanishindex.html" id="navbar__logo">Siempre Hemos Estado Aquí</a>
+
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <!-- NAVBAR MENU -->
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links"> Inicio </a>
+          </li>
+
+          <li class="navbar__item">
+            <a href="#map" class="navbar__links"> Mapa </a>
+          </li>
+
+          <li class="navbar__item">
+            <a href="spanishabout.html" class="navbar__links"> ¿Quiénes somos? </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home">
+      <div class="main">
+        <a href="index.html" class="language_link"> Inglés </a>
+        <div class="main__container">
+          <div class="main__content">
+            <h1>HISTORIA MEXICANA EN ST. LOUIS</h1>
+            <p>
+              <i>Siempre Hemos Estado Aquí</i> es un proyecto comunitario que atrae la
+              memoria colectiva en St. Louis. St. Louis es el hogar de una
+              comunidad prominente de mexicanos americanos. Por eso, invitamos
+              al público a explorar esta historia rica que se remonta al
+              principio del siglo diecinueve. A través de un mapa interactivo,
+              nos esforzamos en reconocer la arraigada presencia mexicana en St.
+              Louis y también notar el papel de la ciudad en la narrativa
+              histórica de <i>mexicanos</i> en los Estados Unidos.
+            </p>
+            <button class="main__btn"><a href="#map">Mapa</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map">
+      <iframe
+        width="100%"
+        height="1000px"
+        src="https://storymaps.arcgis.com/stories/05acb66411224a4d87b8fc1efd584868"
+      ></iframe>
+    </section>
+
+    <script src="JS/app.js"></script>
+  </body>
+</html>
