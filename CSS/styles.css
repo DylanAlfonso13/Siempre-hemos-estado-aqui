@@ -175,17 +175,19 @@ html{
 /* HERO SECTION INDEX CSS */
 
 .main{
-    background-color: #fff;
+    background-image: url("../images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    /* align-items: center; */
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #fff;
+    /* background-color: #fff; */
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -211,8 +213,7 @@ html{
 
 .main__content p{
     margin-top:1rem;
-    font-size: 2rem;
-    /* font-weight: 700; */
+    font-size: 1.75rem;
 }
 
 .main__btn{
@@ -271,7 +272,7 @@ html{
     .main__container{
         display: grid;
         grid-template-columns: auto;
-        align-items: center;
+        /* align-items: center; */
         justify-self: center;
         width: 100%;
         margin: 0 auto;
@@ -292,7 +293,6 @@ html{
     .main__content p{
         margin-top: 1rem;
         font-size: 1.2rem;
-
     }
 
     .main__btn{
@@ -301,6 +301,15 @@ html{
         font-size: 1.2rem;
     }
 
+    .about__container{
+        display: grid;
+        grid-template-columns: auto;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+        padding: 0 0px;
+    }
 }
 
 @media screen and (max-width: 490px){
@@ -322,6 +331,35 @@ html{
 }
 
 .language_link{
-    /* margin: 50px; */
     font-size: 1.25;
+}
+
+.about{
+    background-color: #fff;
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    margin: 0 auto;
+    align-items: center;
+    height: 50vh;
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.topright{
+    text-align:end;
 }
