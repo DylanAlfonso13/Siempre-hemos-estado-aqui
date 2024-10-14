@@ -209,6 +209,7 @@ html{
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    text-transform: uppercase;
 }
 
 .main__content p{
